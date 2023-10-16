@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="labo_03"
+run/main_scene="res://Levels/test_level.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
 
@@ -20,4 +21,5 @@ project/assembly_name="labo_03"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
